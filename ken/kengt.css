@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+nav{
+    background-color: gray;
+    height: 6rem;
+}
+.background{
+    background-color: gray;
+    height: 9rem;
+    margin-top: 1rem;
+}
+.content section{
+    padding: 2rem;
+    margin-top: 2rem;
+    display: inline-flex;
+    gap: 4rem;
+    padding-left: 15rem;
+}
+.square{
+    background-color: gray;
+    height: 14rem;
+    width: 14rem;
+    margin-left: 2rem;
+    border-radius: 1px;
+}
+.circle{
+    background-color: gray;
+    height: 14em;
+    width: 14rem;
+    margin-left: 2rem;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+.content{
+    width: 30px;
+    background-color: transparent;
+     }
+     .content section{
+     display: inline-grid;
+     padding: 1rem;
+     background-color: transparent;
+     }
+}
+.footer{
+    background-color: gray;
+    height: 6rem;
+}
+
+    
+
